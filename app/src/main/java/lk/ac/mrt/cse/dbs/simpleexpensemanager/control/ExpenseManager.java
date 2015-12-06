@@ -21,7 +21,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.exception.ExpenseManagerException;
+
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.AccountDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountException;
@@ -132,5 +132,5 @@ public abstract class ExpenseManager implements Serializable {
      * This method should be implemented by the concrete implementation of this class. It will dictate how the DAO
      * objects will be initialized.
      */
-    public abstract void setup() throws ExpenseManagerException;
+    public abstract void setup();
 }
